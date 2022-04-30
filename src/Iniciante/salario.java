@@ -1,4 +1,4 @@
-package Main;
+package Iniciante;
 /*
 QUESTÃO
 Escreva um programa que leia o número de um funcionário, seu número de 
