@@ -56,5 +56,4 @@ public class cedulas {
 
 		sc.close();
 	}
-
 }
