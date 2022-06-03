@@ -32,5 +32,4 @@ public class idade_em_dias {
 		sc.close();
 
 	}
-
 }

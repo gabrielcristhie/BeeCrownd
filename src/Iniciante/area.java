@@ -13,7 +13,7 @@ Saída
 O arquivo de saída deverá conter 5 linhas de dados. Cada linha corresponde a uma das áreas descritas acima, sempre com mensagem correspondente e um espaço entre os dois pontos e o valor. O valor calculado deve ser apresentado com 3 dígitos após o ponto decimal.
 
  */
-import java.io.IOException;
+import java.io.IOException	;
 import java.util.Scanner;
 import java.lang.Math;
 
@@ -30,14 +30,12 @@ public class area {
 			double trapezio = ((a+b)*c)/2;
 			double quadrado = Math.pow(b,2);
 			double retangulo = a * b;
-			
-			
+				
 			System.out.println(String.format("TRIANGULO: %.3f", triangulo));
 			System.out.println(String.format("CIRCULO: %.3f", circulo));
 			System.out.println(String.format("TRAPEZIO: %.3f", trapezio));
 			System.out.println(String.format("QUADRADO: %.3f", quadrado));
 			System.out.println(String.format("RETANGULO: %.3f", retangulo));
-			
 			
 			sc.close();
 		}
