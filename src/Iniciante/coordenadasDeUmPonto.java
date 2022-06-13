@@ -14,24 +14,25 @@ Saída
 A saída deve apresentar o quadrante em que o ponto se encontra.
 */
 import java.io.IOException;
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class coordenadasDeUmPonto {
 	public static void main(String[] args) throws IOException {
-
 		Scanner sc = new Scanner(System.in);
-		DecimalFormat df = new DecimalFormat("0.0");
-		
 		double x = sc.nextDouble();
 		double y = sc.nextDouble();
-		double me;
-			
-
-
-	
-		System.out.printf(" "+ df.format() + "\n");
 		
-		sc.close(); 
-	}
+		 if (x == 0 && y == 0) {
+            System.out.println("Origem");
+        } else if (y > 0 && x > 0) {
+            System.out.println("Q1");
+        } else if (y > 0 && x < 0) {
+            System.out.println("Q2");
+        } else if (y < 0 && x < 0) {
+            System.out.println("Q3");
+        } else if (y < 0 && x > 0) {
+            System.out.println("Q4");
+        
+		sc.close();
+ }
 }
